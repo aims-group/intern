@@ -33,7 +33,7 @@ alias gb='git branch'
 
 #### SVN ####
 alias fix="svn resolve --accept working -R ."
-alias ss="svn status"i
+alias ss="svn status"
 
 #### INTERN Locals ####
 alias sublime='/Users/USERNAME/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl'
@@ -46,7 +46,7 @@ alias virtualenv3='/Users/USERNAME/workbench/Python3/bin/virtualenv'
 alias python2='/Users/USERNAME/workbench/Python2/bin/python2'
 alias pip2='/Users/USERNAME/.local/bin/pip-2.7'
 alias virtualenv2='/Users/USERNAME/workbench/Python2/bin/virtualenv'
-alias wget='/Users/USERNAME/workbench/wget-1.16/bin/wget'
 
+alias wget='/Users/USERNAME/workbench/wget-1.16/bin/wget'
 
 echo ".bash_aliases sourced"
