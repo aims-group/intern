@@ -36,6 +36,7 @@ alias ss="svn status"
 #### INTERN Locals ####
 alias sublime='/Users/USERNAME/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl'
 alias macvim='/Users/USERNAME/Applications/MacVim-snapshot-72/mvim'
+alias mou='/Users/USERNAME/Applications/Mou.app/Contents/MacOS/Mou'
 
 alias python3='/Users/USERNAME/workbench/Python3/bin/python3'
 alias pip3='/Users/USERNAME/.local/bin/pip3.3'
@@ -45,6 +46,6 @@ alias python2='/Users/USERNAME/workbench/Python2/bin/python2'
 alias pip2='/Users/USERNAME/.local/bin/pip-2.7'
 alias virtualenv2='/Users/USERNAME/workbench/Python2/bin/virtualenv'
 
-alias wget='/Users/USERNAME/workbench/wget-1.16/bin/wget'
+alias wget='/Users/USERNAME/workbench/wget/bin/wget'
 
 echo ".bash_aliases sourced"
