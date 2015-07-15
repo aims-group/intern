@@ -4,11 +4,12 @@
 # All rights reserved.
 #*****************************************************************
 #
-#   Description: Basic .bash_aliases 
+#   Description: Basic .bashrc
 #
 #*****************************************************************
 
 #!/bin/bash
+
 export HISTCONTROL=ignoredups
 export HISTSIZE=1000000
 export HISTFILESIZE=1000000
@@ -20,17 +21,7 @@ export CLICOLOR="true"
 export LSCOLORS=dxgxcxdxbxcgcdabagacad
 export GREP_OPTIONS='--color=auto' GREP_COLOR='00;38;5;226'
 
-export PATH=.:~/bin:/usr/local/bin:/usr/local/sbin:/usr/local/git/bin
-source ~/.bash_aliases
-PS1='\h:\w $'
+export PATH=$PATH:/Users/USERNAME/.gem/ruby/2.0.0/bin
 
-echo '#---------------------------------------------'
-echo "You are logged into a `uname -s` Machine...(Version `uname -r`)"
-lsb_release -a && uname -r
-echo "BashVersion: ${BASH_VERSION%.*}"
-echo "Host: `uname -n`"
-echo "Hardware: `uname -m`...."
-echo "Machine uptime:"
-uptime
-echo '#---------------------------------------------'
-
+source .bash_aliases
+echo ".bashrc sourced"
