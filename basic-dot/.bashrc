@@ -21,7 +21,7 @@ export CLICOLOR="true"
 export LSCOLORS=dxgxcxdxbxcgcdabagacad
 export GREP_OPTIONS='--color=auto' GREP_COLOR='00;38;5;226'
 
-export PATH=$PATH:/Users/USERNAME/.gem/ruby/2.1.0/bin
+#export PATH=$PATH:/Users/USERNAME/.gem/ruby/2.1.0/bin
 
 source ~/.bash_aliases
 echo ".bashrc sourced"
