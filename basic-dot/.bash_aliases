@@ -11,39 +11,39 @@
 #!/bin/bash
 
 # General
+alias src='source ~/.bash_profile'
 alias c=clear
 alias h=history
-alias src='source ~/.bashrc'
 alias ll='ls -l'
 alias la='ls -la'
 alias a='ls -a'
-
-# LLNL
-alias aims1='ssh aims1.llnl.gov'
-alias aims4='ssh aims4.llnl.gov'
 
 # GIT
 alias gs='git status'
 alias gb='git branch'
 
 # SVN
-alias fix="svn resolve --accept working -R ."
-alias ss="svn status"
-
+alias fix='svn resolve --accept working -R .'
+alias ss='svn status'
 
 # Local
-#alias sublime='/Users/USERNAME/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl'
-#alias macvim='/Users/USERNAME/Applications/MacVim-snapshot-72/mvim'
-#alias mou='/Users/USERNAME/Applications/Mou.app/Contents/MacOS/Mou'
+alias sublime='$HOME/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl'
+alias mou='$HOME/Applications/Mou.app/Contents/MacOS/Mou'
 
-#alias python3='/Users/USERNAME/workbench/Python3/bin/python3'
-#alias pip3='/Users/USERNAME/.local/bin/pip3.3'
-#alias virtualenv3='/Users/USERNAME/workbench/Python3/bin/virtualenv'
+# HomeBrew
+alias python3='$HOME/homebrew/bin/python3'
+alias pip3='$HOME/homebrew/bin/pip3 --cert='$HOME/homebrew/cert/cspca.crt''
+alias virtualenv3='$HOME/homebrew/bin/virtualenv-3.5'
 
-#alias python2='/Users/USERNAME/workbench/Python2/bin/python2'
-#alias pip2='/Users/USERNAME/.local/bin/pip-2.7'
-#alias virtualenv2='/Users/USERNAME/workbench/Python2/bin/virtualenv'
+alias python2='$HOME/homebrew/bin/python2'
+alias pip2='$HOME/homebrew/bin/pip --cert='$HOME/homebrew/cert/cspca.crt''
+alias virtualenv2='$HOME/homebrew/bin/virtualenv-2.7'
 
-#alias wget='/Users/USERNAME/workbench/wget/bin/wget'
+alias wget='$HOME/homebrew/bin/wget --no-check-certificate'
+alias mvim='$HOME/homebrew/bin/mvim'
 
-echo ".bash_aliases sourced"
+echo '.bash_aliases sourced'
+
+# Optional
+# alias vi=vim
+# alias vim=mvim
