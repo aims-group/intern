@@ -17,13 +17,7 @@ set mouse=a
 set nowrap
 set ft=javascript
 
-" turn keybindings 
-"imap <UP> <NOP>
-"imap <DOWN> <NOP>
-"imap <RIGHT> <NOP>
-"imap <LEFT> <NOP>
-
-"map <UP> <NOP>
-"map <DOWN> <NOP>
-"map <LEFT> <NOP>
-"map <RIGHT> <NOP>
+"autocmd VimEnter * NERDTree
+"autocmd VimEnter * wincmd p
+"let NERDTreeShowHidden=1
+"colorscheme Vividchalk
