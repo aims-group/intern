@@ -33,11 +33,11 @@ alias mou='$HOME/Applications/Mou.app/Contents/MacOS/Mou'
 # HomeBrew
 alias python3='$HOME/homebrew/bin/python3'
 alias pip3='$HOME/homebrew/bin/pip3 --cert='$HOME/Downloads/cspca.crt''
-alias virtualenv3='$HOME/homebrew/bin/Python3/bin/virtualenv'
+alias virtualenv3='$HOME/homebrew/bin/virtualenv-3.5'
 
 alias python2='$HOME/homebrew/Python2/bin/python2'
 alias pip2='$HOME/homebrew/bin/pip --cert='$HOME/Downloads/cspca.crt''
-alias virtualenv2='$HOME/homebrew/Python2/bin/virtualenv'
+alias virtualenv2='$HOME/homebrew/bin/virtualenv-2.7'
 
 alias wget='$HOME/homebrew/bin/wget --no-check-certificate'
 alias mvim='$HOME/homebrew/bin/mvim'
