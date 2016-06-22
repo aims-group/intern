@@ -28,6 +28,7 @@ source ~/.bash_aliases
 echo ".bashrc sourced"
 export PATH="$HOME/homebrew/bin:$PATH"
 export LD_LIBRARY_PATH="$HOME/homebrew/lib:$LD_LIBRARY_PATH"
+export SSL_CERT_FILE=$HOME/workbench/cert/cspca.crt
 
 # Last output
 echo "#-------------------------------------------"
